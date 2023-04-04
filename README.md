@@ -16,7 +16,7 @@ For  Alzheimer's Detection using MRI Images . The Source of the dataset is https
     
 
   
-# Model Training   
+# Model Training and Inference   
 For the EEG dataset(Augmented), the models used are tree based models,Probablity based models,non linear models and taking into account the small dataset combined predictions from best models are used to produce final output using majority voting.  
 
   
