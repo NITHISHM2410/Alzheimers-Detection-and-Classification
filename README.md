@@ -14,3 +14,10 @@ For  Alzheimer's Detection using MRI Images . The Source of the dataset is https
     iii) Demented  
     iv)  Very Mild Demented  
     
+
+  
+# Model Training   
+For the EEG dataset(Augmented), the models used are tree based models,Probablity based models,non linear models and taking into account the small dataset combined predictions from best models are used to produce final output using majority voting.  
+
+  
+For MRI Images Pretrained CNN Model VGG is used with an addtional top layer to classify the images to the 4 classes mentioned above.
