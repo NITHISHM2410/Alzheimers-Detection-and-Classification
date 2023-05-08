@@ -10,6 +10,6 @@ For Alzheimer's Detection using EEG. The dataset is downloaded from https://osf.
 # Model Training
 
 For the EEG dataset(Augmented), the models used are tree based models,Probablity based models,non linear models and taking into account the small dataset combined predictions from best models are used to produce final output using majority voting.  
-For EEG dataset(Non-Augmented), Few Shot Learning neural network models have been applied on the 48 samples .In deep learning, few-shot learning involves training a neural network to learn from only a few examples of each class or category. The goal is to enable the network to quickly generalize to new classes, without requiring a large amount of additional labeled data for each new class.
+For EEG dataset(Non-Augmented), Few Shot Learning neural network models have been applied on the 48 samples.In deep learning, few-shot learning involves training a neural network to learn from only a few examples of each class or category. The goal is to enable the network to quickly generalize to new classes, without requiring a large amount of additional labeled data for each new class.
   
 
