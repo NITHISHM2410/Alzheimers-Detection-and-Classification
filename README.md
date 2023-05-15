@@ -10,6 +10,9 @@ For Alzheimer's Detection using EEG. The dataset is downloaded from https://osf.
 # Model Training
 
 For the EEG dataset(Augmented), the models used are tree based models,Probablity based models,non linear models and taking into account the small dataset combined predictions from best models are used to produce final output using majority voting.  
-For EEG dataset(Non-Augmented), Few Shot Learning neural network models have been applied on the 48 samples.In deep learning, few-shot learning involves training a neural network to learn from only a few examples of each class or category. The goal is to enable the network to quickly generalize to new classes, without requiring a large amount of additional labeled data for each new class.
+
+For EEG dataset(Non-Augmented), Few Shot Learning neural network models have been applied on the 48 samples.Few-shot learning is a subfield of machine learning that addresses the problem of insufficient data by enabling models to learn new concepts from a small number of labelled examples. It emphasizes training models to recognize or classify new classes or concepts with limited labelled data, typically one to several examples per class. For models to generalize effectively and achieve high accuracy in conventional machine learning, a large amount of labelled data is required. In ,medical imaging, it may be impractical or impossible to obtain such comprehensive labelled data for each class or concept. At this juncture, few-shot learning enters into play.
+Instead of relying on a large labelled dataset, few-shot learning generalises knowledge from a larger set of classes or domains to new concepts. When data is limited, this makes the solution more effective and efficient. Utilizing Siamese neural networks, the Siamese method is an efficient technique for few-shot learning. Siamese networks consist of paired neural networks that share weights and are trained to discover similarity metrics between inputs. The Siamese method is particularly useful for tasks involving comparisons of similarity.
+
   
 
